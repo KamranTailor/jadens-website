@@ -1,0 +1,55 @@
+.sectionHeading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.sectionWraper {
+    background-color: #333;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.item-wrapper {
+    height: 200px;
+    width: 200px;
+    max-width: 200px; /* Adjust maximum width as needed */
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 1em;
+    font-weight: bold;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: lighter;
+}

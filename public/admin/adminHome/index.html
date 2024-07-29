@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!--User Head Data-->
+    <title>Order</title>
+    <script> const pageName = 'Order'; const pagePermissions = "Open";  </script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <br>
+        <h1><center>Admin Pages</center></h1>
+        <div class="dashboard">
+            <div class="item" onclick="goTo('/admin/editItems')">Edit Items</div>
+            <div class="item" onclick="goTo('/admin/viewOrders')">View Orders</div>
+        </div>
+    </main> 
+</body>
+<script> function goTo(l) {window.location = l}</script>
+<script src="script.js"></script>
+<script src="../../global.js"></script>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!--User Head Data-->
+    <title>Order</title>
+    <script> const pageName = 'Order'; const pagePermissions = "Open";  </script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="spn">
+        <h1><center>Your Cart</center></h1>
+        <br>
+        <div class="cart-container" id="cart-container">
+            <!-- You can add more cart items here -->
+        </div>
+
+        <div class="order-container">
+                <div class="form-group">
+                    <div class="left-column">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div class="right-column">
+                        <label for="order-notes">Order Notes:</label>
+                        <textarea id="order-notes" name="order-notes" rows="5" required></textarea>
+                    </div>
+                </div>
+    
+                <button type="submit" class="submit-button" onclick="order()">Submit</button>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+<script src="../global.js"></script>
+
+</html>
